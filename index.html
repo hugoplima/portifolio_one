@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Folha de estilo de CSS Linkado -->
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/cabecalho.css" rel="stylesheet" />
+    <link href="css/home.css" rel="stylesheet" />
+    <link href="css/sobre.css" rel="stylesheet" />
+    <link href="css/skills.css" rel="stylesheet" />
+    <link href="css/hobbies.css" rel="stylesheet" />
+    <link href="css/formacao.css" rel="stylesheet" />
+    <link href="css/experiencia.css" rel="stylesheet" />
+    <link href="css/contato.css" rel="stylesheet" />
+    <link href="css/rodape.css" rel="stylesheet" />
+
+    <!--link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin -->
+
+    <!-- Fonte do Projeto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    
+    <title>Portfólio | Hugo Lima</title>
+</head>
+<body>
+    <!-- Sessão de Menu  -->
+    <header class="cabecalho container">
+      <div class="cabecalho__logo">
+            <img src="assets\vector.png"
+                 class="cabecalho__logo"
+                 alt="Logo do Portfólio"
+            >
+            <h1 class="cabecalho__texto">Hugo Lima</h1>
+      </div>
+        
+        <nav class="cabecalho__menu">
+            <a href="#sobre" class="cabecalho__link">Sobre mim</a>
+            <a href="#skills" class="cabecalho__link">Skills</a>
+            <a href="#hobbies" class="cabecalho__link">Hobbies</a>
+            <a href="#formacao" class="cabecalho__link">Formação</a>
+            <a href="#experiencia" class="cabecalho__link">Projeto</a>
+            <a href="mailto:lima-hugo@hotmail.com" class="cabecalho__link"
+              >lima-hugo@hotmail.com</a
+            >
+        </nav>
+      </header>     
+    </section>
+
+<!-- Sessão de Header/Title/Hero -->
+    <main class="principal">
+    <section class="home container">
+        <div class="home__conteudo">
+          <h2 class="titulo--principal">
+            Olá, meu nome é Hugo Lima e construo páginas web
+          </h2>
+          <p class="home__descricao">
+            Eu sou mestre em Oceanografia e atualmente estou participando no
+            projeto Oracle ONE na Alura.
+          </p>
+          <ul class="home__lista">
+            <li class="home__item">
+              <a
+                href="https://github.com/hugoplima"
+                class="home__link"
+                target="_blank"
+              >
+                <p class="home__titulo">GitHub</p>
+                <img
+                  src="assets/arrow.png"
+                  alt="Seta indicando link para outro sites"
+                  class="home__imagem"
+                />
+              </a>
+            </li>
+            <li class="home__item">
+              <a
+                href="https://www.linkedin.com/in/hugopereiralima/"
+                class="home__link"
+                target="_blank"
+              >
+                <p class="home__titulo">Linkedin</p>
+                <img
+                  src="assets/arrow.png"
+                  alt="Seta indicando link para outro sites"
+                  class="home__imagem"
+                />
+              </a>
+            </li>
+            <li class="home__item">
+              <a
+                href="https://www.instagram.com/hugopl/"
+                class="home__link"
+                target="_blank"
+              >
+                <p class="home__titulo">Instagram</p>
+                <img
+                  src="assets/arrow.png"
+                  alt="Seta indicando link para outro sites"
+                  class="home__imagem"
+                />
+              </a>
+            </li>
+            <li class="home__item">
+              <a href="#" class="home__link" target="_blank">
+                <p class="home__titulo">Currículo</p>
+                <img
+                  src="assets/arrow.png"
+                  alt="Seta indicando link para outro sites"
+                  class="home__imagem"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <img src="https://github.com/hugoplima.png" class="home__imagem--maior" alt="" />
+      </section>
+        <!-- Sessão sobre mim -->
+    <section class="sobre container" id="sobre">
+        <h3 class="titulo">Sobre mim</h3>
+        <p class="sobre__descricao"> 
+              Sou Oceanógrafo formado pela Universidade Federal do Maranhão (UFMA), 
+              onde puder participar do programa Ciências Sem Fronteira do Governo Federal, 
+              por meio do qual eu tive a oportunidade de cursar graduação sanduíche (2014-2015) 
+              na Humboldt State University - CA e Wayne State University - MI (EUA).
+              Atualmente, sou estudante de programação pelo programa ONE - Oracle Next Education, 
+              e explorador de conteúdos disponíveis por toda a internet.
+        </p>
+        <p class="sobre__descricao">
+              Busco oportunidade profissional que permita meu crescimento
+              profissional e técnico.
+        </p>
+        <p class="sobre__descricao">
+              Prezo sempre por trabalhar em equipe, cooperando com todos e ajudando
+              da melhor maneira possível, com grande satisfação em ensinar e
+              aprender, à medida que todos crescemos juntos.
+        </p>
+        <!-- Caso queira colocar sua própria assinatura, insira aqui! -->
+        <div class="sobre__imagem"></div>
+    </section>
+
+<!-- Sessão de Skills/Habilidades -->
+<section class="skills container" id="skills">
+    <h3 class="titulo--centralizado titulo">Skills</h3>
+    <ul class="skills__lista card__lista">
+        <li class="skill__item card__item">
+        <img
+            src="assets\htlm.png"
+            alt="Logo HTML 5"
+            class="card__imagem skill__imagem"
+        />
+        <h4 class="skill__titulo card__titulo">Html 5</h4>
+        </li>
+        <li class="skill__item card__item">
+        <img
+            src="assets\js_icon.png"
+            alt="Logo do JavaScript"
+            class="card__imagem skill__imagem"
+        />
+        <h4 class="skill__titulo card__titulo">JavaScript</h4>
+        </li>
+        <li class="skill__item card__item">
+        <img
+            src="assets\php_icon.png"
+            alt="Logo do PHP"
+            class="card__imagem skill__imagem"
+        />
+        <h4 class="skill__titulo card__titulo">PHP</h4>
+        </li>
+        <li class="skill__item card__item">
+        <img
+            src="assets\nodejs_icon.png"
+            alt="Logo do NodeJS"
+            class="card__imagem skill__imagem"
+        />
+        <h4 class="skill__titulo card__titulo">Node JS</h4>
+        </li>
+        <li class="skill__item card__item">
+        <img
+            src="assets\react_icon.png"
+            alt="Logo do React"
+            class="card__imagem skill__imagem"
+        />
+        <h4 class="skill__titulo card__titulo">React</h4>
+        </li>
+        <li class="skill__item card__item">
+        <img
+            src="assets\css_icon.png"
+            alt="Logo do CSS"
+            class="card__imagem skill__imagem"
+        />
+        <h4 class="skill__titulo card__titulo">CSS</h4>
+        </li>
+    </ul>
+</section>
+<!-- Sessão de Hobbies -->
+    <section class="hobbies container" id="hobbies">
+        <h3 class="titulo--centralizado titulo">Hobbies</h3>
+        <ul class="hobbies__lista card__lista">
+          <li class="hobbie__item card__item">
+            <img
+              src="assets\skate_icon.png"
+              alt="Logo skate"
+              class="card__imagem hobbie__imagem"
+            />
+            <h4 class="hobbie_titulo card__titulo">Andar de Skate</h4>
+          </li>
+          <li class="hobbie__item card__item">
+            <img
+              src="assets\guitar_icon.png"
+              alt="Logo tocar baixo"
+              class="card__imagem hobbie__imagem"
+            />
+            <h4 class="hobbie_titulo card__titulo">Tocar Baixo</h4>
+          </li>
+          <li class="hobbie__item card__item">
+            <img
+              src="assets\headphones_icon.png"
+              alt="Logo músicas"
+              class="card__imagem hobbie__imagem"
+            />
+            <h4 class="hobbie_titulo card__titulo">Ouvir música</h4>
+          </li>
+          <li class="hobbie__item card__item">
+            <img
+              src="assets\tv_icon.png"
+              alt="Logo series"
+              class="card__imagem hobbie__imagem"
+            />
+            <h4 class="hobbie_titulo card__titulo">Assistir series</h4>
+          </li>
+          <li class="hobbie__item card__item">
+            <img
+              src="assets\forkspoon_icon.png"
+              alt="Logo cozinhar"
+              class="card__imagem hobbie__imagem"
+            />
+            <h4 class="hobbie_titulo card__titulo">Cozinhar</h4>
+          </li>
+          <li class="hobbie__item card__item">
+            <img
+              src="assets\camera_icon.png"
+              alt="logo tirar fotos"
+              class="card__imagem hobbie__imagem"
+            />
+            <h4 class="hobbie_titulo card__titulo">Tirar fotos</h4>
+          </li>
+        </ul>
+      </section>
+    <!-- Sessão de Histórico Acadêmico -->
+    <section class="formacoes container" id="formacao">
+        <h3 class="titulo--centralizado titulo">Formação acadêmica</h3>
+        <ul class="formacoes__lista">
+          <li class="formacao__item">
+            <div class="formacao__logo">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/UFMA.jpg/1024px-UFMA.jpg"
+                alt="Logo da UFMA"
+                class="formacao__imagem"
+              />
+            </div>
+            <h4 class="formacao__titulo">Programação iniciante</h4>
+            <p class="formacao__status">2023 - Oracle/Alura</p>
+          </li>
+          <li class="formacao__item">
+            <div class="formacao__logo">
+              <img
+                src="assets\logo-alura.svg"
+                alt="Logo da Alura"
+                class="formacao__imagem"
+              />
+            </div>
+            <h4 class="formacao__titulo">Programação iniciante</h4>
+            <p class="formacao__status">2023 - Oracle/Alura</p>
+          </li>
+          <li class="formacao__item">
+            <div class="formacao__logo">
+              <img
+                src="assets\logo-alura.svg"
+                alt="Logo da Alura"
+                class="formacao__imagem"
+              />
+            </div>
+            <h4 class="formacao__titulo">Especialização Front-end</h4>
+            <p class="formacao__status">Em andamento - Oracle/Alura</p>
+          </li>
+        </ul>
+      </section>
+
+    <!-- Sessão de Experiência Profissional/Projetos-->
+    <section class="experiencias container" id="experiencia">
+      <h3 class="titulo--centralizado titulo">Experiência profissional</h3>
+      <ul class="experiencia__lista">
+        <li class="experiencia__item">
+          <img
+            src="assets\alura_midi.png"
+            class="experiencia__imagem"
+            alt="Imagem da bateria da Alura criado com HTML, CSS e JavaScript"
+          />
+          <div class="experiencia__projeto">
+            <h4 class="projeto__titulo">Alura Midi</h4>
+            <p class="projeto__descricao">Bateria musical desenvolvida na Alura</p>
+            <a
+              href="https://github.com/hugoplima/aluramidi"
+              target="_blank"
+              class="projeto__botao botao"
+              >Repositório</a
+            >
+            <a
+              href="https://github.com/hugoplima/aluramidi"
+              target="_blank"
+              class="projeto__botao botao"
+              >Ver demo</a
+            >
+          </div>
+        </li>
+        <li class="experiencia__item">
+          <img
+            src="assets\numero_secreto.png"
+            class="experiencia__imagem"
+            alt="Imagem do jogo criado com HTML, CSS e JavaScript"
+          />
+          <div class="experiencia__projeto">
+            <h4 class="projeto__titulo">
+              Jogo criado com HTML, CSS e JavaScript
+            </h4>
+            <p class="projeto__descricao">Desenvolvido na Alura</p>
+            <a
+              href="https://github.com/hugoplima/numero-secreto"
+              target="_blank"
+              class="projeto__botao botao"
+              >Repositório</a
+            >
+            <a
+              href="https://github.com/hugoplima/numero-secreto"
+              target="_blank"
+              class="projeto__botao botao"
+              >Ver demo</a
+            >
+          </div>
+        </li>
+        <li class="experiencia__item">
+          <img
+            src="assets\portifolio_alura.png"
+            class="experiencia__imagem"
+            alt="Imagem do projeto com HTML, CSS e JavaScript"
+          />
+          <div class="experiencia__projeto">
+            <h4 class="projeto__titulo">Portifolio criado com HTML, CSS e JavaScript</h4>
+            <p class="projeto__descricao">Desenvolvido na Alura</p>
+            <a
+              href="https://github.com/hugoplima/portifolio_html_css"
+              target="_blank"
+              class="projeto__botao botao"
+              >Repositório</a
+            >
+            <a
+              href="https://github.com/hugoplima/portifolio_html_css"
+              target="_blank"
+              class="projeto__botao botao"
+              >Ver demo</a
+            >
+          </div>
+        </li>
+        <li class="experiencia__item">
+          <img
+            src="assets\portifolio_one.png"
+            class="experiencia__imagem"
+            alt="Imagem do jogo da sorte criado na Maratona Explorex"
+          />
+          <div class="experiencia__projeto">
+            <h4 class="projeto__titulo">Portifolio criado com HTML, CSS e JavaScript</h4>
+            <p class="projeto__descricao">Challenge ONE </p>
+            <a
+              href="https://github.com/hugoplima/portifolio_one"
+              target="_blank"
+              class="projeto__botao botao"
+              >Repositório</a
+            >
+            <a
+              href="https://github.com/hugoplima/portifolio_one"
+              target="_blank"
+              class="projeto__botao botao"
+              >Ver demo</a
+            >
+          </div>
+        </li>
+      </ul>
+    </section>
+
+        <!-- Sessão de Contato -->
+      
+      <section class="contato container">
+        <div class="contato__imagem"></div>
+        <div class="contato__conteudo">
+          <h3 class="contato__titulo titulo">Contato</h3>
+          <p class="contato__descricao">Quer entrar em contato comigo?</p>
+          <p class="contato__descricao">
+            Preencha o formulário ao lado e entrarei em contato o mais rápido
+            possível.
+          </p>
+          <form class="contato__formulario">
+            <div class="contato__campo">
+              <label for="nome" class="contato__label">Nome</label>
+              <input
+                type="text"
+                class="contato__input"
+                id="nome"
+                maxlength="50"
+                data-tipo="nome"
+                required
+              />
+              <span class="mensagem__erro"></span>
+            </div>
+            <div class="contato__campo">
+              <label for="e-mail" class="contato__label">E-mail</label>
+              <input
+                type="email"
+                class="contato__input"
+                id="e-mail"
+                data-tipo="email"
+                pattern="^[A-Za-z0-9](([_.-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([.-]?[a-zA-Z0-9]+)*)([.][A-Za-z]{2,4})$"
+                required
+              />
+              <span class="mensagem__erro"></span>
+            </div>
+            <div class="contato__campo">
+              <label for="assunto" class="contato__label">Assunto</label>
+              <input
+                type="text"
+                class="contato__input"
+                id="assunto"
+                maxlength="50"
+                data-tipo="assunto"
+                required
+              />
+              <span class="mensagem__erro"></span>
+            </div>
+            <div class="contato__campo">
+              <label for="mensagem" class="contato__label">Mensagem</label>
+              <textarea
+                type="text"
+                class="contato__input"
+                id="mensagem"
+                rows="2"
+                maxlength="300"
+                data-tipo="mensagem"
+                required
+              ></textarea>
+              <span class="mensagem__erro"></span>
+            </div>
+            <input
+              type="submit"
+              class="contato__botao botao"
+              id="enviar"
+              value="Enviar mensagem"
+            />
+          </form>
+        </div>
+      </section>
+    </main>
+        <!-- Sessão de Footer/Rodapé-->
+        <footer class="rodape container">
+            <h5 class="rodape__titulo">Desenvolvido por Hugo Lima</h5>
+            <p class="rodape__ano">2024</p>
+        </footer>
+    </div>
+    <!-- Script Linkado do seu documento de JavaScript -->
+<script src="./js/app.js" type="module"></script>
+</body>
+</html>
+

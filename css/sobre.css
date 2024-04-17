@@ -1,0 +1,19 @@
+.sobre {
+    background: #EAF2FD;
+}
+
+.sobre__descricao, .sobre__imagem {
+    margin-top: 1rem;
+}
+
+.sobre__imagem {
+    background: url("../assets/signature.png") no-repeat;
+    width: 70%;
+    height: 50px;
+}
+
+@media screen and (min-width: 1024px) {
+    .sobre__descricao {
+        width: 70%;
+    }
+}
